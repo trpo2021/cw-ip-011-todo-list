@@ -1,7 +1,14 @@
-#include <iostream>
+﻿#include <iostream>
 #include <cstdlib>
 #include <string>
-#include "Functions.h"
+#include "show_menu.h"
+#include "add_note.h"
+#include "all_notes.h"
+#include "find_one_note.h"
+#include "remove_all_notes.h"
+#include "remove_one_note.h"
+#include "see_all_notes.h"
+
 
 enum CHOISE {
     ADD_NOTE = 1,
