@@ -3,7 +3,7 @@
 #include <string>
 //find_one_one - поиск одной заметки
 std::string* find_one_note(const std::string& note_to_find, int& n_count) {
-
+long unsigned int temp=-1;
 
 	std::ifstream file("notes.txt");
 	if (!file.is_open()) {
@@ -17,7 +17,7 @@ std::string* find_one_note(const std::string& note_to_find, int& n_count) {
 	int count = 0;//количество найденых заметок
 	while (!file.eof()) {
 		getline(file, one_note);
-		if (one_note.find(note_to_find) != -1) {
+		if (one_note.find(note_to_find) != temp) {
 			count++;
 			found_notes_tmp = new std::string[count];
 			//Копируем все уже найденые заметки

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <LibTODO/show_menu.h>
 //show_menu - выводит меню в консоль
 void show_menu() {
 	std::cout << "[1] Add note." << std::endl;

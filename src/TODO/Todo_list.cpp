@@ -1,14 +1,14 @@
 ﻿#include <iostream>
 #include <cstdlib>
 #include <string>
-#include "show_menu.h"
-#include "add_note.h"
-#include "all_notes.h"
-#include "find_one_note.h"
-#include "remove_all_notes.h"
-#include "remove_one_note.h"
-#include "see_all_notes.h"
-
+#include <LibTODO/show_menu.h>
+#include <LibTODO/add_note.h>
+#include <LibTODO/all_notes.h>
+#include <LibTODO/find_one_note.h>
+#include <LibTODO/remove_all_notes.h>
+#include <LibTODO/remove_one_note.h>
+#include <LibTODO/see_all_notes.h>
+ 
 
 enum CHOISE {
     ADD_NOTE = 1,
