@@ -2,7 +2,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-// show_menu - выводит меню в консоль
+
 void show_menu()
 {
     std::cout << "[1] Add note." << std::endl;

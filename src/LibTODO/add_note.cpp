@@ -1,7 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-// add_note - добавить заметку
+
 void add_note(const std::string& new_note)
 {
     std::cout << new_note;

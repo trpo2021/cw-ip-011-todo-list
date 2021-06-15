@@ -1,7 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-// see_all_notes - показать все заметки
+
 void see_all_notes()
 {
     std::ifstream file("notes.txt");
