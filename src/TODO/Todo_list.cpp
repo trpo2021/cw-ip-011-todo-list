@@ -88,7 +88,8 @@ int main(){
 
             system("pause");
         }
-        else if (choice == REMOVE_ALL_NOTES) {
+        else if (choice == REMOVE_ALL_NOTES) 
+        {
             system("cls");
             remove_all_notes();
             cout << "All notes removed!" << endl;
