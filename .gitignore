@@ -1,0 +1,13 @@
+#Ignore main file
+
+
+#Ignore .<name> files
+*.o
+*.exe
+*.out
+*.a
+*.d
+*#*
+
+tags
+.vscode
