@@ -4,6 +4,7 @@
 
 #define CTEST_MAIN
 #include <ctest.h>
+
 #include <LibTODO/add_note.h>
 #include <LibTODO/all_notes.h>
 #include <LibTODO/find_one_note.h>
