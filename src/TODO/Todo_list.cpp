@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cstdlib>
 #include <string>
 #include <LibTODO/show_menu.h>
@@ -38,7 +38,7 @@ int main()
              system("cls");
             
              string new_note;
-             getline(cin, new_note);//пропуск переноса строки после cin
+             getline(cin, new_note);
              cout << "Note to add: ";
              getline(cin, new_note);
              add_note(new_note);
