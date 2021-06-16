@@ -11,7 +11,7 @@ std::string* all_notes(int& n_count)
         std::cout << "File is not opened!";
         exit(EXIT_FAILURE);
     }
-    
+
     std::string one_note;
     int count = 0;
     while (!file.eof()) {
@@ -27,7 +27,7 @@ std::string* all_notes(int& n_count)
         all_notes = all_notes_ptr;
         all_notes_ptr = nullptr;
     }
-    
+
     file.close();
     n_count = count;
     return all_notes;
